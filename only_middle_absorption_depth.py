@@ -10,7 +10,7 @@ from scipy.signal import find_peaks
 import copy
 
 # about not irradiate
-Google_Drive_datadir = "/path/to/data/experiment/spectra/kobayashi/NaCl/"
+Google_Drive_datadir = "/path/to/data/experiment/spectra/NaCl/"
 DATE = "2024-09-13"
 FILE_ID_IRRADIATED = "9"
 DATA_FILE_PATH_IRRADIATED = f"{Google_Drive_datadir}/{DATE}/{DATE}_{FILE_ID_IRRADIATED}.txt"
